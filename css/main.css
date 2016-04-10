@@ -103,6 +103,8 @@ body {
     margin-right: auto;
     margin-top: 0em;
     border: 1px solid red;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 /* Header */
@@ -121,7 +123,7 @@ body {
 
 .page_header i {
     position: absolute;
-    right: 110px;
+    right: 100px;
     top: 14px;
 }
 
@@ -150,14 +152,89 @@ body {
     padding: .5em;
 }
 
+.banner a:hover {
+    color: #000;
+    background-color: #fff;
+}
 
+/* About */
 
+.about {
+    padding: 1em;
+    line-height: 1.4em;
+    border-bottom: .1em solid #c0c0c0;
+}
 
+/* Latest Work */
 
+.latest_work {
+     margin: 1em;
+}
 
+.latest_work .work_examples {
+    border: 1px solid #c0c0c0;
+    width: 49.75%;
+    margin-bottom: .15em;
+}
 
+.latest_work .work_examples h3 {
+    text-align: center;   
+    border: 1px solid red;
+      background: hsla(234, 14%, 100%, 0.52);
+     padding: 3em 0em 4em 0em;
+}
 
+#ex_1 {
+    float: left;
+    background: url("../img/1-cocktail.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+#ex_2 {
+    float: right;
+    background: url("../img/2-disco.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ex_3 {
+    clear: both;
+    float: left;
+    background: url("../img/3-bookstore.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ex_4 {
+    float: right;
+    background: url("../img/4-traffic.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ex_5 {
+    clear: both;
+    float: left;
+    background: url("../img/5-concert.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ex_6 {
+    float: right;
+    background: url("../img/6-nightlife.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ex_7 {
+    clear: both;
+    float: left;
+    background: url("../img/7-bar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 
 
