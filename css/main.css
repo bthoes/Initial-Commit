@@ -98,10 +98,11 @@ html {
 /* Globals */
 
 body {
-    width: 40em;
+    width: 35em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0em;
+    border: 1px solid red;
 }
 
 /* Header */
@@ -120,17 +121,34 @@ body {
 
 .page_header i {
     position: absolute;
-    right: 70px;
+    right: 110px;
     top: 14px;
 }
 
+/* Banner */
 
+.banner {
+    background: url("../img/purple-bg.jpg");
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 4em 10em 7em 10em;
 
+}
 
+.banner h1 {
+    font-size: 300%;
+    margin-bottom: 1em;
+}
 
-
-
-
+.banner a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+    border: .1em solid #fff;
+    padding: .5em;
+}
 
 
 
