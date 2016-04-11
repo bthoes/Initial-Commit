@@ -167,77 +167,27 @@ body {
 
 /* Latest Work */
 
-.latest_work {
-     margin: 1em;
+.work_examples {
+    border: 1px solid yellow;
+    background: hsla(234, 14%, 100%, 0.52);
+    position: relative;
+    width: 48%;
 }
 
-.latest_work .work_examples {
-    border: 1px solid #c0c0c0;
-    width: 49.75%;
-    margin-bottom: .15em;
+.work_examples img {
+    border: 1px solid blue;
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 100%;
 }
 
-.latest_work .work_examples h3 {
-    text-align: center;   
-    border: 1px solid red;
-      background: hsla(234, 14%, 100%, 0.52);
-     padding: 3em 0em 4em 0em;
+.work_examples .ex {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-#ex_1 {
-    float: left;
-    background: url("../img/1-cocktail.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_2 {
-    float: right;
-    background: url("../img/2-disco.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_3 {
-    clear: both;
-    float: left;
-    background: url("../img/3-bookstore.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_4 {
-    float: right;
-    background: url("../img/4-traffic.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_5 {
-    clear: both;
-    float: left;
-    background: url("../img/5-concert.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_6 {
-    float: right;
-    background: url("../img/6-nightlife.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#ex_7 {
-    clear: both;
-    float: left;
-    background: url("../img/7-bar.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
-
 
 
 
