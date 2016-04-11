@@ -130,6 +130,7 @@ body {
 /* Banner */
 
 .banner {
+    clear: both;
     position: relative;
 }
 
@@ -256,6 +257,21 @@ body {
     clear: both;
     float: left;
 }
+
+#ex_8 {
+    float: right;
+}
+
+#ex_9 {
+    clear: both;
+    float: left;
+}
+
+#ex_10 {
+    float: right;
+}
+
+
 
 /* Footer */
 
