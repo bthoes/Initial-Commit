@@ -169,7 +169,7 @@ img {
     position: absolute;
     text-align: center;
     line-height: 1;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
